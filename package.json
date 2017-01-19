@@ -1,0 +1,15 @@
+{
+  "name": "summernote-accordion",
+  "version": "1.0.1",
+  "description": "Plugin to add an accordion in summernote wysiwyg",
+  "main": "summernote-accordion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "summernote",
+    "accordion"
+  ],
+  "author": "cocaux <oralie.mycek@gmail.com>",
+  "license": "MIT"
+}

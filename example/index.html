@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewpoart" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+  <title>Summernote Accordion</title>
+  <!-- include jquery -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script> 
+
+  <!-- include libraries BS3 -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- include summernote -->
+  <link rel="stylesheet" href="node_modules/summernote/dist/summernote.css">
+  <script type="text/javascript" src="node_modules/summernote/dist/summernote.js"></script>
+  <script type="text/javascript" src="node_modules/summernote-accordion/summernote-accordion.js"></script>
+
+  <script type="text/javascript">
+    $(function() {
+      $('#summernote').summernote({
+      height: 800,
+      focus: true,
+      toolbar: [
+        ['style', ['bold', 'italic', 'underline']],
+        ['para', ['style']],
+        ['insert', ['link', 'picture', 'video']],
+        ['misc', ['accordion', 'codeview']]
+      ],
+      popover: {}
+    });
+    });
+  </script>
+</head>
+<body>
+<div id="summernote"></div>
+</body>
+</html>
